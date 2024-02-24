@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Montserrat";
+    color:white ;
+}
+body{
+   
+    overflow-x: hidden;
+  
+}
+html ,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    position: relative;
+    background-color:#222;
+ 
+
+}
+
+.nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    padding: 0 50px;
+    position: absolute;
+    z-index: 99;
+    
+
+}
+.full-scr-nav{
+    height: 100vh;
+  
+   
+    width: 100vw;
+    background-color: bisque;
+    position: absolute;
+    padding: 150px 150px;
+    transition: all ease 0.9s;
+    top:-100vh;
+    color: #777676;
+    z-index:98 ;
+}
+.varity{
+    padding: 0px 20px;
+    top: 30px;
+    display: flex;
+    align-items: start;
+    list-style: none;
+    gap: 10vw;
+
+}
+.varity .flavour li{
+    color: #2c2b2bf9;
+    opacity: .8;
+    font-size:2vw ;
+    line-height: 3.5vw;
+
+}
+.varity .other li{
+    color:#2c2b2bf9;
+    opacity: .8;
+    font-size:2vw ;
+    line-height: 3.5vw;
+
+}
+.full-scr-nav h1{
+    font-size:200px ;
+    color: #222;
+
+}
+.nav h2 {
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+.nav-part-2{
+    display: flex;
+    align-items: center;
+
+}
+.nav-part-2 i{
+    font-size: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.page1{
+    min-height: 90vh;
+width: 100vw;
+position: relative;
+}
+.page2 {
+    width: 100vw;
+    height: 100vh;
+    position:relative;
+    margin-top: 10vh;
+}
+
+.page1 h1{
+    font-size: 13vw;
+    position: absolute;
+    left: 5%;
+    letter-spacing:15px; 
+    top: 23%;
+}
+.page1 h2 {
+
+    position: absolute;
+    left: 18%;
+    letter-spacing:5px;
+    width: 30%;
+    font-size: 2.4vw;
+    top:52%;
+    line-height: 2vw;
+
+}
+.page1 h3 {
+
+    position: absolute;
+    text-transform: uppercase;
+    left: 60%;
+    letter-spacing:5px;
+    width: 20%;
+    font-size: 1.4vw;
+    top:47%;
+    line-height: 1.5 vw;
+
+}
+.page2-img{
+   padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 200px;
+}
+.page2-img .Takis{
+  
+    width: 700px;
+    height: 500px;
+    
+    
+  
+}
+.page2-img .img{
+  
+    width: 700px;
+    height: 600px;
+  
+}
+
+.page2{
+
+    position: relative;
+    min-height: 100vh;
+  background-color: #222;
+  border: 1px solid white;
+ 
+
+ 
+
+
+
+
+}
+.page2 img{
+    position: relative;
+    left:20%;
+    transform: translate(-50%,0)scale(1);
+    top: 5%;
+    width: 85vw;
+    margin-bottom: 50px;
+    background-size: cover;
+    object-position: center;
+    object-fit: contain;
+  
+    opacity: 1;
+   
+
+    
+ 
+      
+         height: 90vh;
+      
+    }
+    .page3 img{
+        position: relative;
+        left: 50%;
+        height: 90vh;
+        background-size: cover;
+        top: 5%;
+        width: 85vw;
+        margin-bottom: 50px;
+    
+        transform: translate(-50%,0)scale(1);
+
+    }
+.page2 h1{
+    font-size: 50px;
+    width: 50%;
+    text-align: center;
+    top: 20px;
+
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+scale: 1;
+  
+
+
+
+}
+.page2 h1 span {
+    font-family: "dancing Script OT";
+
+ 
+}
+.page3{
+    position: relative;
+    height: 30vh;
+    width:100vw;
+}
+.page4 h2{
+    font-size: 80px;
+    text-align: center;
+}
+.page4{
+    height: 89vh;
+    width: 100%;
+    position: relative;
+    padding:60px 100px;
+
+    
+
+}
+.page4  h1{
+    font-size: 9vw;
+    text-transform: uppercase;
+}
+.page5{
+    height: 130vh ; 
+    width: 100vw;
+
+    position: relative;
+  
+}
+.page5-elem{
+    height: 20%;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.page5-elem h1{
+    width: 70%;
+  
+    height: 100%;
+
+    font-size:60px ;
+    text-transform: uppercase;
+    padding: 30px 60px;
+    border:1px solid #d1d1d1 ;
+}
+.page5-elem h2{
+    width: 30%;
+    border-top:1px solid #d1d1d1 ;
+    border-right:1px solid #d1d1d1 ;
+    border-bottom:1px solid #d1d1d1 ;
+
+    height: 100%;
+    padding: 30px 60px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.page5-content{
+    height: 100vh ;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding:100px ;
+    background-image: url(https://media2.giphy.com/media/9bTjZrytydVRK/giphy.gif?cid=ecf05e473xgzrqwsgdsjyqulof7lmi77bxdbkz6zx1wu3m2n&ep=v1_gifs_related&rid=giphy.gif&ct=g); 
+    
+}
+.page5-content h1{
+   
+    font-size:4vw ;
+    text-align: center;
+    width: 60%;
+    line-height: 4.2vw;
+
+}
+.page5-content span{
+    font-family: "dancing Script OT";
+    font-size: 4.2vw;
+}
+.page5-content h4{ 
+   
+    font-size:1.2vw ;
+    text-align: center;
+    width: 30%;
+    margin: 50px;
+    
+
+
+}
+
+.h1  {
+ display: flex;
+
+   
+     overflow-x:auto ;
+     overflow-y: hidden;
+   
+
+} 
+.page6 .slide2-of-h1{
+ cursor: default;
+    text-wrap: wrap;
+   
+     overflow-x:auto ;
+   
+   
+
+} 
+.slide1-of-h1 h1 {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.slide1-of-h1 h1{
+    font-size: 10vw;
+    text-transform: uppercase;
+    line-height: 18vh;
+
+}
+.slide2-of-h1 h1 {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.slide2-of-h1 h1{
+    font-size:10vw;
+    text-transform: uppercase;
+    line-height: 18vh;
+}
+.slide1-of-h1 h1::-webkit-scrollbar{
+display: none;
+
+}
+
+.slide2-of-h1 h1::-webkit-scrollbar{
+    display: none;
+ 
+ }
+ .slide1-of-h1 h1 .One1{
+ color: transparent;
+    -webkit-text-stroke:1px #adadaa ;
+
+}
+.slide2-of-h1 .One2{
+    color: transparent;
+       -webkit-text-stroke:1px #adadaa ;
+   
+   }
+.slide2-of-h1 h1 span {
+    transform: translateX(-100%);
+}
+.page7{
+    height: 70vh ;
+    width: 100vw;
+    background-color: #222;
+    padding:100px 50px ;
+    text-align: center;
+
+
+ 
+}
+.page7 h3{
+    position: relative;
+    left: 50%;
+    font-size: 4vw;
+    width: 50%;
+    transform: translateX(-50%)}
+    .page7 h3 span{
+        font-family:"dancing Script OT" ;
+        font-size: 3.7vw;
+      
+    }
+    .page7-ele{
+        display: flex;
+        height: 45vh;
+        margin-top: 5vh;
+
+        height: 50%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .page7-ele .element1{
+        cursor: none;
+        height: 100%;
+     
+       
+   
+display: flex;
+justify-content: center;
+align-items: center;
+width: 25%;
+    }
+    .page7-ele .element2{
+        height: 100%;
+   
+      
+        cursor: none;
+    
+display: flex;
+justify-content: center;
+align-items: center;
+width:25% ;
+    }
+    .element1 h1{
+        font-size: 50px;
+        z-index: 99;
+        position: relative;
+        
+    }
+    .element2 h1{
+        font-size:50px;
+        z-index: 99;
+        position: relative;
+    }
+    .element1 img{
+        position: absolute;
+        opacity: 0;
+     
+transition: opacity ease-in .2s ;
+transform: rotate(10deg);
+
+
+
+    }
+    .element2 img{
+        position: absolute; 
+        opacity: 0;
+     
+        transition: opacity ease-in .2s ;
+        transform: rotate(10deg);
+       
+     
+
+
+    }
+    .page8{
+       position: relative;
+        width: 100vw;
+        height: 70vh;
+      
+  
+
+    }
+    .page8 h1{
+        padding-top:40px ;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    
+    .page8 .img-slider {
+
+
+  gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .img-slider .img-element img{
+     width: 280px;
+     height: 280px;
+   
+   
+
+      
+        background-size: cover;
+    }
+    .img-slider img:hover{
+        transition-duration: .5s;
+        scale: 1.2;
+       
+    
+    }
